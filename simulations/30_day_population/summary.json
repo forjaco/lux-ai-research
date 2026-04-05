@@ -1,0 +1,43 @@
+{
+  "simulation_id": "public_demo_30d",
+  "conceptual_population": 5000,
+  "representative_profiles": 48,
+  "total_days": 30,
+  "ticks_per_day": 4,
+  "scenario_blocks": [
+    {"scenario_name": "baseline_stability", "days": 6},
+    {"scenario_name": "rising_economic_pressure", "days": 6},
+    {"scenario_name": "persistent_social_conflict", "days": 6},
+    {"scenario_name": "cognitive_and_institutional_overload", "days": 6},
+    {"scenario_name": "partial_recovery_with_support", "days": 6}
+  ],
+  "public_metrics": {
+    "final_avg_stress": 0.525953,
+    "final_avg_hope": 0.43934,
+    "peak_avg_stress": 0.605388,
+    "peak_day": 24,
+    "peak_scenario": "cognitive_and_institutional_overload",
+    "avg_collapse_rate_peak": 0.054963,
+    "final_avg_baseline_drift": 0.066636,
+    "final_avg_residual_load": 0.227,
+    "final_divergence_index": 0.03869
+  },
+  "cohort_counts": {
+    "adaptive_recovery_profiles": 10,
+    "cognitive_overload_analytical_profiles": 10,
+    "economic_fragile_internalizers": 10,
+    "instability_sensitive_defensive_profiles": 9,
+    "social_reactive_profiles": 9
+  },
+  "assumptions": [
+    "The population is represented by weighted synthetic profile representatives.",
+    "Only public-safe aggregates and selected visuals are published.",
+    "Scenario transitions follow a simple block-based experimental design."
+  ],
+  "notable_patterns": [
+    "Stress peaks during the cognitive and institutional overload block.",
+    "Hope drops under compound pressure and only partially recovers.",
+    "Baseline drift and residual load remain above the initial level after the 30-day window.",
+    "Different cohorts show distinct recovery and accumulation patterns."
+  ]
+}
